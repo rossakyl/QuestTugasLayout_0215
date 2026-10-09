@@ -69,9 +69,17 @@ fun InfoCard(
                         color = colorResource(id = detailColorRes)
                     )
                 }
-
+                Text(
+                    text = stringResource(id = alamatRes),
+                    fontSize = 14.sp,
+                    color = colorResource(id = detailColorRes)
+                )
             }
-
-            }
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = stringResource(id = R.string.desc_logo_umy),
+                modifier = Modifier.size(60.dp)
+            )
+        }
     }
 }
