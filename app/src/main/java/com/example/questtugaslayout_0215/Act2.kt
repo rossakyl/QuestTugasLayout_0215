@@ -114,6 +114,43 @@ fun TampilanDaftarMahasiswa(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(20.dp))
+
+            // Card 1: Bambang Sumantri (Cursive, Tanpa Nomor HP)
+            InfoCard(
+                namaRes = R.string.nama_1,
+                alamatRes = R.string.alamat_1,
+                cardBgColorRes = R.color.card_bg_gray,
+                isCursive = true,
+                detailColorRes = R.color.yellow
+            )
+
+            // Card 2: Gibran Fathoni
+            InfoCard(
+                namaRes = R.string.nama_2,
+                nohpRes = R.string.nohp_2,
+                alamatRes = R.string.alamat_2,
+                cardBgColorRes = R.color.card_bg_purple,
+                detailColorRes = R.color.cyan
+            )
+
+            // Card 3: Zhilal Fadhilah
+            InfoCard(
+                namaRes = R.string.nama_3,
+                nohpRes = R.string.nohp_3,
+                alamatRes = R.string.alamat_3,
+                cardBgColorRes = R.color.card_bg_blue,
+                detailColorRes = R.color.cyan
+            )
+
+            // Card 4: Ahmad Alfian
+            InfoCard(
+                namaRes = R.string.nama_4,
+                nohpRes = R.string.nohp_4,
+                alamatRes = R.string.alamat_4,
+                cardBgColorRes = R.color.card_bg_green,
+                detailColorRes = R.color.cyan
+            )
         }
+
     }
-    }
+}
