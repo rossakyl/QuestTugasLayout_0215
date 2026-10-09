@@ -1,9 +1,13 @@
 package com.example.questtugaslayout_0215
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Card
@@ -83,3 +87,33 @@ fun InfoCard(
         }
     }
 }
+
+@Composable
+fun TampilanDaftarMahasiswa(modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier.fillMaxSize()
+    ){
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 40.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ){
+            Text(
+                text = stringResource(id = R.string.header_prodi),
+                fontSize = 28.sp,
+                fontWeight = FontWeight.Bold,
+                color = colorResource(id = R.color.black)
+            )
+
+            Text(
+                text = stringResource(id = R.string.header_univ),
+                fontSize = 16.sp,
+                fontWeight = FontWeight.SemiBold,
+                color = colorResource(id = R.color.black)
+            )
+
+            Spacer(modifier = Modifier.height(20.dp))
+        }
+    }
+    }
