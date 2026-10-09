@@ -21,6 +21,9 @@ fun InfoCard(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 6.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(id = cardBgColorRes)
+        )
     ){
 
     }
