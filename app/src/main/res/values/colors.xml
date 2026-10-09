@@ -11,4 +11,8 @@
     <!-- Warna Teks Aksen -->
     <color name="yellow">#FFFFEB3B</color>
     <color name="cyan">#FF00E5FF</color>
+
+    <!-- Background Colors untuk 4 Card -->
+    <color name="card_bg_gray">#575454</color>
+    <color name="card_bg_purple">#673AB7</color>
 </resources>
