@@ -151,6 +151,13 @@ fun TampilanDaftarMahasiswa(modifier: Modifier = Modifier) {
                 detailColorRes = R.color.cyan
             )
         }
-
+        Text(
+            text = stringResource(id = R.string.copyright),
+            fontSize = 12.sp,
+            color = colorResource(id = R.color.black),
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = 20.dp)
+        )
     }
 }
