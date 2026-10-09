@@ -17,5 +17,11 @@ fun InfoCard(
     isCursive: Boolean = false,
     detailColorRes: Int
 ){
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 6.dp),
+    ){
 
+    }
 }
