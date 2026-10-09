@@ -35,6 +35,12 @@ fun InfoCard(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ){
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = stringResource(id = R.string.desc_logo_umy),
+                modifier = Modifier.size(60.dp)
+            )
+
 
         }
 
